@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/ferris-wheel-8428738.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
