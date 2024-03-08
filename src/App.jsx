@@ -39,19 +39,15 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
-  const nameStyle = { color: 'white' };
-  const titleStyle = { color: 'white' };
-
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} nameStyle={nameStyle} titleStyle={titleStyle} />
+      <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
 };
-
 
 export default App;
