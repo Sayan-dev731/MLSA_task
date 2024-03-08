@@ -37,16 +37,16 @@ const projectList = [
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Disease Prediction Web Application🦠",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Made a disease prediction web application on Streamlit used to predict the disease based on the symptoms.",
+    url: "https://github.com/Sayan-dev731/Disease_prediction",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://sayan-dev731.github.io/MyWebsite/",
   },
   {
     title: "GitHub Codespaces and github.dev",

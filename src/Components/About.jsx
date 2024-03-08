@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "🚀 Space boy, coding joy, moments to deploy. 💻 Seize the day, with code at play. 😁 Smiles alight, in every byte. 💾";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Proficient in Java, Python, C, C++, C#, JavaScript, SQL, and HTML5",
+  "Experience in MySQL, IoT technologies, machine learning, deep learning",
+  "Unity game development expertise",
+  "Strong problem-solving skills demonstrated through competitive background in hackathons and participation in CodeChef",
+  "Adaptability to different programming environments and technologies",
+  "Collaborative approach to projects, emphasizing teamwork and communication"
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "A curious mind fascinated by science, technology, and the melodies of life! I have a deep passion for understanding the world around me and an unquenchable thirst for knowledge. From the latest advancements in science and tech to stargazing under the night sky, I'm driven by discovery. My hobbies reflect this: I've built Deep Learning Programs, demonstrating my coding skills, and I stay current on tech news. Whether exploring the cosmos or diving into competitive coding on CodeChef, I'm always learning and growing.";
 
 const About = () => {
   return (
