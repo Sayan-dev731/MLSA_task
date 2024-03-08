@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Sayan Karmakar",
-  title: "Game Developer & Competitive COder",
+  title: "Game Developer & Competitive Coder",
   email: "sayan.karmakar@studentambassadors.com",
   gitHub: "Sayan-dev731",
   instagram: "code_it884/",
@@ -39,15 +39,19 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
+  const nameStyle = { color: 'white' };
+  const titleStyle = { color: 'white' };
+
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Home name={siteProps.name} title={siteProps.title} nameStyle={nameStyle} titleStyle={titleStyle} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
 };
+
 
 export default App;
